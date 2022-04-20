@@ -40,6 +40,12 @@ export default {
     </div>
     <div class="travelB">
         <h2>Travel Costs (one way)</h2>
+        <p>To estimate travel costs, use the following benchmarks:</p>
+        <ul>
+            <li>From the twin cities: 100 mi</li>
+            <li>From Grinnel: 250 mi</li>
+            <li>From Chicago: 400 mi</li>
+        </ul>
         <div class="inputs">
             <label for="gasDist">Distance Driven</label>
             <input id="gasDist" type="number" min="0" step="0.5" v-model="gasDist">
